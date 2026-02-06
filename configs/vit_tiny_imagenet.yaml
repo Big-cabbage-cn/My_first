@@ -1,0 +1,21 @@
+project_name: vit_tiny_imagenet_subset
+seed: 42
+
+data_dir: /Users/diaobaocheng/my-first-project/data/tiny-imagenet-200
+image_size: 224
+num_classes: 200
+
+model_name: vit_tiny_patch16_224
+pretrained: false
+
+epochs: 10
+batch_size: 64
+num_workers: 4
+lr: 0.0003
+weight_decay: 0.05
+label_smoothing: 0.1
+amp: true
+
+device: auto
+log_dir: runs
+checkpoint_dir: checkpoints

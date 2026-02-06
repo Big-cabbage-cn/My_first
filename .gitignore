@@ -33,3 +33,15 @@ wheels/
 # OS
 .DS_Store
 Thumbs.db
+
+# Training outputs
+runs/
+checkpoints/
+*.pt
+
+# Datasets
+data/
+
+# Local env
+.venv/
+*.env
